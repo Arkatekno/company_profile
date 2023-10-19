@@ -1,21 +1,37 @@
 import React from 'react';
-import Testimonials from './components/Testimonials.jsx';
-import Skills from './components/Skills.jsx';
-import Projects from './components/Projects.jsx';
-import Navbar from './components/Navbar.jsx';
-import About from './components/About.jsx';
-import Contacts from './components/Contacts.jsx';
+import { BrowserRouter } from 'react-router-dom';
+import {
+  About,
+  Contacts,
+  Navbar,
+  Projects,
+  Skills,
+  Testimonials,
+  BallCanvas,
+  EarthCanvas,
+  StarsCanvas,
+  ComputersCanvas
+} from './components';
+
+// Navbar();
 
 const App = () => {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <Contacts />
-    </main>
+    <BrowserRouter>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+        </div>
+        <About />
+        <Projects />
+        <Skills />
+        <Testimonials />
+        <div className="relative z-0">
+          <Contacts />
+          <StarsCanvas />
+        </div>
+      </div>
+    </BrowserRouter>
   );
 };
 
