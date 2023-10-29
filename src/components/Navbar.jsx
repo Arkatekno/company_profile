@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { ArrowRightIcon } from '@heroicons/react/20/solid/index.js';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles.js';
 import { navLinks } from '../constants';
-import { menu, close, arteksLogo, arteksLogoBanner } from '../assets';
+import { menu, close, arteksLogo } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -15,7 +14,7 @@ const Navbar = () => {
         key={link.id}
         className={`${
           active === link.title ? 'text-white' : 'text-secondary'
-        } hover:text-white text-[18px] font-medium cursor-pointer sm:font-poppins text-[16px]`}
+        } hover:text-white text-[18px] font-medium cursor-pointer sm:font-poppins sm:text-[16px]`}
         onClick={() => {
           if (toggle) {
             setToggle(!toggle);
