@@ -1,34 +1,25 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import { styles } from '../styles.js';
+import { ComputersCanvas } from './canvas';
+
 const About = () => {
   return (
-    <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, We Are Arka Tekno Solusindo.
-            <br className="hidden lg:inline-block" />
-            We love to build amazing apps.
-          </h1>
-          <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum quasi, incidunt
-            dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus?
-          </p>
-          <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
-          </div>
+    <section className={`relative w-full h-screen mx-auto`} id="about">
+      <div
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+        <div className={`flex flex-col justify-center items-center mt-5`}>
+          <div className={`w-5 h-5 rounded-full bg-[#915eff]`} />
+          <div className={`w-1 sm:h-80 h-40 violet-gradient`} />
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img className="object-cover object-center rounded" alt="hero" src="./coding.svg" />
+        <div>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Hi! We are <span className={`text-[#915eff]`}>ARTEKS!</span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Arka Tekno Solusindo</p>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   );
 };
