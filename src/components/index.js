@@ -1,5 +1,5 @@
 import Navbar from './Navbar.jsx';
-import About from './About.jsx';
+import About from './Opening.jsx';
 import Contacts from './Contacts.jsx';
 import Projects from './Projects.jsx';
 import Skills from './Skills.jsx';

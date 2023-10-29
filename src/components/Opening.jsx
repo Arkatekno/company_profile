@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles.js';
 import { ComputersCanvas } from './canvas';
 
-const About = () => {
+const Opening = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`} id="about">
       <div
@@ -42,4 +42,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Opening;
