@@ -5,6 +5,7 @@ import {
   Contacts,
   Navbar,
   Projects,
+  Services,
   Skills,
   Testimonials,
   BallCanvas,
@@ -23,6 +24,7 @@ const App = () => {
           <Navbar />
           <Opening />
         </div>
+        <Services />
         {/*<Projects />*/}
         {/*<Skills />*/}
         {/*<Testimonials />*/}
