@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles.js';
 import { services } from '../constants/index.js';
 import { fadeIn, textVariant } from '../utils/motion.js';
+import { SectionWrapper } from '../hoc';
 
 const ServicesCard = ({ index, title, icon }) => {
   return (
@@ -48,4 +49,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default SectionWrapper(Services, 'services');
