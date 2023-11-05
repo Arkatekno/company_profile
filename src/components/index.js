@@ -3,6 +3,7 @@ import About from './Opening.jsx';
 import Contacts from './Contacts.jsx';
 import Projects from './Projects.jsx';
 import Services from './Services.jsx';
+import Experience from './Experience.jsx';
 import Skills from './Skills.jsx';
 import Opening from './Opening.jsx';
 import Testimonials from './Testimonials.jsx';
@@ -20,5 +21,6 @@ export {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
-  Services
+  Services,
+  Experience
 };
