@@ -11,7 +11,8 @@ import {
   BallCanvas,
   EarthCanvas,
   StarsCanvas,
-  ComputersCanvas
+  ComputersCanvas,
+  Experience
 } from './components';
 
 // Navbar();
@@ -25,6 +26,7 @@ const App = () => {
           <Opening />
         </div>
         <Services />
+        <Experience />
         {/*<Projects />*/}
         {/*<Skills />*/}
         {/*<Testimonials />*/}
