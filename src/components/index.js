@@ -7,6 +7,7 @@ import Experience from './Experience.jsx';
 import Skills from './Skills.jsx';
 import Opening from './Opening.jsx';
 import Testimonials from './Testimonials.jsx';
+import Tech from './Tech.jsx';
 import { BallCanvas, ComputersCanvas, EarthCanvas, StarsCanvas } from './canvas/index.js';
 
 export {
@@ -22,5 +23,6 @@ export {
   ComputersCanvas,
   StarsCanvas,
   Services,
-  Experience
+  Experience,
+  Tech
 };

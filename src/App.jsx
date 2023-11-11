@@ -12,7 +12,8 @@ import {
   EarthCanvas,
   StarsCanvas,
   ComputersCanvas,
-  Experience
+  Experience,
+  Tech
 } from './components';
 
 // Navbar();
@@ -27,6 +28,7 @@ const App = () => {
         </div>
         <Services />
         <Experience />
+        <Tech />
         {/*<Projects />*/}
         {/*<Skills />*/}
         {/*<Testimonials />*/}
