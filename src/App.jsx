@@ -12,8 +12,9 @@ import {
   EarthCanvas,
   StarsCanvas,
   ComputersCanvas,
-  Experience,
-  Tech
+  Tech,
+  Works,
+  Timeline
 } from './components';
 
 // Navbar();
@@ -27,15 +28,9 @@ const App = () => {
           <Opening />
         </div>
         <Services />
-        <Experience />
+        <Timeline />
         <Tech />
-        {/*<Projects />*/}
-        {/*<Skills />*/}
-        {/*<Testimonials />*/}
-        {/*<div className="relative z-0">*/}
-        {/*  <Contacts />*/}
-        {/*  <StarsCanvas />*/}
-        {/*</div>*/}
+        <Works />
       </div>
     </BrowserRouter>
   );

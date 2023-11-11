@@ -31,8 +31,8 @@ export const navLinks = [
     title: 'About'
   },
   {
-    id: 'services',
-    title: 'Services'
+    id: 'timeline',
+    title: 'Timeline'
   },
   {
     id: 'work',
@@ -46,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Web',
     icon: web
   },
   {
-    title: 'React Native Developer',
+    title: 'Mobile Apps',
     icon: mobile
   },
   {
-    title: 'Backend Developer',
+    title: 'IS/IT Management',
     icon: backend
   },
   {
-    title: 'Content Creator',
+    title: 'Content Management',
     icon: creator
   }
 ];
@@ -118,58 +118,24 @@ const technologies = [
   }
 ];
 
-const experiences = [
+const timelineHistory = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
+    title: 'Arka Developer',
+    company_name: 'Arka Developer',
     icon: starbucks,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'October 2019 - November 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Starting as an Arka Developer, small team members that covering basic apps development'
     ]
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
+    title: 'CV ARKA Teknologi Solusindo',
+    company_name: 'ARTEKS',
     icon: tesla,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
+    date: 'November 2023 - Present',
+    points: ['ARTEKS founded in Lamongan, Evolving Arka Developer to more powerful one']
   }
 ];
 
@@ -266,4 +232,4 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, timelineHistory, testimonials, projects };

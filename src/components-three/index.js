@@ -2,8 +2,8 @@ import { BallCanvas, ComputersCanvas, EarthCanvas, StarsCanvas } from './canvas/
 import Hero from './Hero.jsx';
 import Navbar from './Navbar.jsx';
 import Tech from './Tech.jsx';
-import Experience from '../components/Experience.jsx';
-import Works from './Works.jsx';
+import Experience from '../components/Timeline.jsx';
+import Works from '../components/Works.jsx';
 import Feedbacks from './Feedbacks.jsx';
 import Contact from './Contact.jsx';
 
