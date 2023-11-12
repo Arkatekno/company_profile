@@ -31,7 +31,7 @@ jobs:
         with:
           host: ${{ secrets.NIAGAHOSTER_IP }}
           username: ${{ secrets.NIAGAHOSTER_USERNAME }}
-          key: ${{ secrets.NIAGAHOSTER_SSH }}
+          key: ${{ secrets.SSHKEY_NIAGAHOSTER }}
           source: "dist/*"
           target: "public_html/coba/"
 
