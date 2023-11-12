@@ -27,11 +27,12 @@ jobs:
       - run: npm run build
 
       - name: Copy dist to remote server
-        uses: appleboy/scp-action@master
+        uses: appleboy/scp-action@v0.1.4
         with:
           host: ${{ secrets.NIAGAHOSTER_IP }}
           username: ${{ secrets.NIAGAHOSTER_USERNAME }}
-          key: ${{ secrets.SSHKEY_NIAGAHOSTER }}
+          password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
+          port: ${{ secrets.NIAGAHOSTER_PORT }}
           source: "dist/*"
           target: "public_html/coba/"
 
