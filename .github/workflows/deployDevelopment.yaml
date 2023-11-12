@@ -34,9 +34,9 @@ jobs:
           password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
           port: ${{ secrets.NIAGAHOSTER_PORT }}
           source: "dist/*"
-          target: "public_html/coba"
-    #          strip_components: 1
-    #          overwrite: true
+          target: "public_html"
+          strip_components: 1
+          overwrite: true
 
 
 
