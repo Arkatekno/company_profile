@@ -21,7 +21,7 @@ const TimelineCard = ({ item }) => {
       date={date}
       iconStyle={{ background: iconBg }}
       icon={
-        <div className="flex justify-center -center w-full h-full">
+        <div className="flex justify-center items-center w-full h-full">
           <img src={icon} alt={company_name} className="w-[60%] h-[60%] object-contain" />
         </div>
       }>

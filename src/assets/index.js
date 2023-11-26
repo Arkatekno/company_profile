@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './company/logo.svg';
 import backend from './backend.png';
 import creator from './creator.png';
 import mobile from './mobile.png';
@@ -21,7 +21,7 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import adobeIllustrator from './tech/adobeIllustrator.png';
-import affinityPhoto from './tech/affinityPhoto.png';
+import affinityPhoto from './tech/affinityPhoto.jpeg';
 import affinityDesigner from './tech/affinityDesigner.png';
 import arduino from './tech/arduino.png';
 import bootstrap from './tech/bootstrap.png';
@@ -54,17 +54,18 @@ import tesla from './company/tesla.png';
 import carrent from './portofolioScreenshoot/carrent.png';
 import jobit from './portofolioScreenshoot/jobit.png';
 import tripguide from './portofolioScreenshoot/tripguide.png';
-import arteksLogo from './logo-Mini.png';
-import arteksLogoBanner from './logoBanner.png';
+import arteksLogo from './company/logo-Mini.png';
+import arteksLogoBanner from './company/logoBanner.png';
 
 import logoITDC from './logoTestimony/logoITDC.jpg';
 import logoPertamina from './logoTestimony/logoPertamina.png';
 import logoPertaminaClipart from './logoTestimony/logoPertaminaClipart.png';
-import logoRoosRekan from './logoTestimony/logoRoosRekan.jepg';
+import logoRoosRekan from './logoTestimony/logoRoosRekan.jpeg';
 import logoSemenIndonesia from './logoTestimony/logoSemenIndonesia.png';
 import logoSSS from './logoTestimony/logoSSS.jpg';
 import logoSSSjpg from './logoTestimony/logoSSS.jpeg';
 import logoTheMandalika from './logoTestimony/logoTheMandalika.png';
+import arkadev from './company/arkadev.png';
 
 export {
   logo,
@@ -129,5 +130,6 @@ export {
   logoSemenIndonesia,
   logoSSS,
   logoSSSjpg,
-  logoTheMandalika
+  logoTheMandalika,
+  arkadev
 };

@@ -22,8 +22,44 @@ import {
   threejs,
   tripguide,
   typescript,
-  web
+  web,
+  adobeIllustrator,
+  affinityPhoto,
+  affinityDesigner,
+  arduino,
+  bootstrap,
+  canva,
+  cobit,
+  codeigniter,
+  expressjs,
+  golang,
+  html5,
+  itil,
+  laravel,
+  microsoftOffice,
+  mysql,
+  nextjs,
+  nuxt,
+  photoshop,
+  php,
+  pmbok,
+  postgresql,
+  premiere,
+  redis,
+  sass,
+  vuejs,
+  logoITDC,
+  logoPertamina,
+  logoPertaminaClipart,
+  logoRoosRekan,
+  logoSemenIndonesia,
+  logoSSS,
+  logoSSSjpg,
+  logoTheMandalika,
+  arteksLogo,
+  arkadev
 } from '../assets';
+import { code } from 'three/nodes';
 
 export const navLinks = [
   {
@@ -65,56 +101,79 @@ const services = [
 
 const technologies = [
   {
+    category: 'language',
     name: 'HTML 5',
     icon: html
   },
   {
+    category: 'language',
     name: 'CSS 3',
     icon: css
   },
   {
+    category: 'language',
     name: 'JavaScript',
     icon: javascript
   },
   {
+    category: 'framework',
     name: 'TypeScript',
     icon: typescript
   },
   {
+    category: 'framework',
     name: 'React JS',
     icon: reactjs
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux
-  },
-  {
+    category: 'framework',
     name: 'Tailwind CSS',
     icon: tailwind
   },
   {
+    category: 'framework',
     name: 'Node JS',
     icon: nodejs
   },
   {
+    category: 'database',
     name: 'MongoDB',
     icon: mongodb
   },
   {
+    category: 'framework',
     name: 'Three JS',
     icon: threejs
   },
   {
+    category: 'technology',
     name: 'git',
     icon: git
   },
   {
-    name: 'figma',
-    icon: figma
-  },
-  {
+    category: 'technology',
     name: 'docker',
     icon: docker
+  },
+  {
+    category: 'framework',
+    name: 'laravel',
+    icon: laravel
+  },
+  {
+    category: 'framework',
+    name: 'codeigniter',
+    icon: codeigniter
+  },
+  {
+    category: 'database',
+    name: 'mysql',
+    icon: mysql
+  },
+  {
+    category: 'database',
+    name: 'postgresql',
+    icon: postgresql
   }
 ];
 
@@ -122,7 +181,7 @@ const timelineHistory = [
   {
     title: 'Arka Developer',
     company_name: 'Arka Developer',
-    icon: starbucks,
+    icon: arkadev,
     iconBg: '#383E56',
     date: 'October 2019 - November 2023',
     points: [
@@ -132,7 +191,7 @@ const timelineHistory = [
   {
     title: 'CV ARKA Teknologi Solusindo',
     company_name: 'ARTEKS',
-    icon: tesla,
+    icon: arteksLogo,
     iconBg: '#E6DEDD',
     date: 'November 2023 - Present',
     points: ['ARTEKS founded in Lamongan, Evolving Arka Developer to more powerful one']
