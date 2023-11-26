@@ -30,8 +30,11 @@ const App = () => {
         <Services />
         <Timeline />
         <Tech />
-        <Works />
-        <Contact />
+        {/*<Works />*/}
+        <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
       </div>
     </BrowserRouter>
   );

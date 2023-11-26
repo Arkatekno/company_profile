@@ -147,11 +147,6 @@ const technologies = [
   },
   {
     category: 'technology',
-    name: 'git',
-    icon: git
-  },
-  {
-    category: 'technology',
     name: 'docker',
     icon: docker
   },
