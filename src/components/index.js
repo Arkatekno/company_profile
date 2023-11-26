@@ -1,6 +1,6 @@
 import Navbar from './Navbar.jsx';
 import About from './Opening.jsx';
-import Contacts from './Contacts.jsx';
+import Contact from './Contact.jsx';
 import Projects from './Projects.jsx';
 import Services from './Services.jsx';
 import Timeline from './Timeline.jsx';
@@ -15,7 +15,6 @@ export {
   Navbar,
   Opening,
   About,
-  Contacts,
   Projects,
   Skills,
   Testimonials,
@@ -26,5 +25,6 @@ export {
   Services,
   Timeline,
   Tech,
-  Works
+  Works,
+  Contact
 };

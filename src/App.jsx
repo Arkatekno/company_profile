@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import {
   Opening,
-  Contacts,
   Navbar,
   Projects,
   Services,
@@ -14,7 +13,8 @@ import {
   ComputersCanvas,
   Tech,
   Works,
-  Timeline
+  Timeline,
+  Contact
 } from './components';
 
 // Navbar();
@@ -31,6 +31,7 @@ const App = () => {
         <Timeline />
         <Tech />
         <Works />
+        <Contact />
       </div>
     </BrowserRouter>
   );
