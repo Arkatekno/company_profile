@@ -21,7 +21,7 @@ const Opening = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>Arka Tekno Solusindo</p>
         </div>
       </div>
-      <EarthCanvas />
+      {/*<EarthCanvas />*/}
       <div className={`absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center`}>
         <a href={`#services`}>
           <div

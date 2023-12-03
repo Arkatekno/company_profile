@@ -184,7 +184,7 @@ const timelineHistory = [
     ]
   },
   {
-    title: 'CV ARKA Teknologi Solusindo',
+    title: 'CV ARKA Tekno Solusindo',
     company_name: 'ARTEKS',
     icon: arteksLogo,
     iconBg: '#E6DEDD',
